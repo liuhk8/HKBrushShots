@@ -15,6 +15,9 @@
 		B7D0224C223BE11B00E540BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D0224B223BE11B00E540BE /* main.m */; };
 		B7D02256223BE11B00E540BE /* HKBrushShotsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D02255223BE11B00E540BE /* HKBrushShotsTests.m */; };
 		B7D02261223BE11B00E540BE /* HKBrushShotsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D02260223BE11B00E540BE /* HKBrushShotsUITests.m */; };
+		B7D02271223BE3C000E540BE /* HKCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D02270223BE3C000E540BE /* HKCropView.m */; };
+		B7D02274223BE60E00E540BE /* HKLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D02273223BE60E00E540BE /* HKLineView.m */; };
+		B7D02277223BE65200E540BE /* HKLineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D02276223BE65200E540BE /* HKLineManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		B7D0225C223BE11B00E540BE /* HKBrushShotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HKBrushShotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D02260223BE11B00E540BE /* HKBrushShotsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKBrushShotsUITests.m; sourceTree = "<group>"; };
 		B7D02262223BE11B00E540BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7D0226F223BE3C000E540BE /* HKCropView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKCropView.h; sourceTree = "<group>"; };
+		B7D02270223BE3C000E540BE /* HKCropView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKCropView.m; sourceTree = "<group>"; };
+		B7D02272223BE60E00E540BE /* HKLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKLineView.h; sourceTree = "<group>"; };
+		B7D02273223BE60E00E540BE /* HKLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKLineView.m; sourceTree = "<group>"; };
+		B7D02275223BE65200E540BE /* HKLineManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKLineManager.h; sourceTree = "<group>"; };
+		B7D02276223BE65200E540BE /* HKLineManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKLineManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		B7D0223B223BE11A00E540BE /* HKBrushShots */ = {
 			isa = PBXGroup;
 			children = (
+				B7D0226E223BE32200E540BE /* HKScreenshot */,
 				B7D0223C223BE11A00E540BE /* AppDelegate.h */,
 				B7D0223D223BE11A00E540BE /* AppDelegate.m */,
 				B7D0223F223BE11A00E540BE /* ViewController.h */,
@@ -130,6 +140,19 @@
 				B7D02262223BE11B00E540BE /* Info.plist */,
 			);
 			path = HKBrushShotsUITests;
+			sourceTree = "<group>";
+		};
+		B7D0226E223BE32200E540BE /* HKScreenshot */ = {
+			isa = PBXGroup;
+			children = (
+				B7D0226F223BE3C000E540BE /* HKCropView.h */,
+				B7D02270223BE3C000E540BE /* HKCropView.m */,
+				B7D02272223BE60E00E540BE /* HKLineView.h */,
+				B7D02273223BE60E00E540BE /* HKLineView.m */,
+				B7D02275223BE65200E540BE /* HKLineManager.h */,
+				B7D02276223BE65200E540BE /* HKLineManager.m */,
+			);
+			path = HKScreenshot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D02274223BE60E00E540BE /* HKLineView.m in Sources */,
 				B7D02241223BE11A00E540BE /* ViewController.m in Sources */,
+				B7D02271223BE3C000E540BE /* HKCropView.m in Sources */,
 				B7D0224C223BE11B00E540BE /* main.m in Sources */,
+				B7D02277223BE65200E540BE /* HKLineManager.m in Sources */,
 				B7D0223E223BE11A00E540BE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
