@@ -64,7 +64,8 @@
 #import "HKCropView.h"
 #import "HKLineView.h"
 ```
-##### 3.0 - 创建2个自定义view对象：
+##### 3 - Coding:
+###### 3.0 - 创建2个自定义view对象：
 ```Objective-C
 @property (nonatomic, strong) HKCropView *cropView;
 @property (nonatomic, strong) HKLineView *lineView;
