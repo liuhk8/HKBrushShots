@@ -1,22 +1,19 @@
 # HKBrushShots
 类似于呱呱卡效果，手指划过的区域形成画笔。适用于取出部分图片（截图），如截取出图片中带文字的区域部分。
-
-### 📃说明：
-#### 图片效果：
 ------------------------------
-##### 截取出图片中的“你就是我的全世界”文字区域的图片：
+## 📃说明：
+#### 🎆图片效果：
+截取出图片中的“你就是我的全世界”文字区域的图片：
 <img src="https://github.com/liuhuakun/HKBrushShots/blob/master/WechatIMG1.png" width=320 alt="图片1"/>
 
-##### 截取出图片中那只呆萌的小犀牛🦏：
-------------------------------
+截取出图片中那只呆萌的小犀牛🦏：
 <img src="https://github.com/liuhuakun/HKBrushShots/blob/master/WechatIMG4.png" width=320 alt="图片2"/>
 
-##### 更多截图效果：
-------------------------------
+更多截图效果：
 <img src="https://github.com/liuhuakun/HKBrushShots/blob/master/WechatIMG3.png" width=320 alt="图片3"/>
 <img src="https://github.com/liuhuakun/HKBrushShots/blob/master/WechatIMG2.png" width=320 alt="图片4"/>
 
-#### 接口说明：
+#### ⛓️接口说明：
 ##### 1 - HKCropView 裁剪图片类
 ```Objective-C
 /**
@@ -57,7 +54,7 @@
 -(void)cleanBeforeLine;
 ```
 
-### 🔨使用：
+## 🔨使用：
 ##### 1 - 将HKScreenShot文件夹拷贝至项目中。
 ##### 2 - 引入头文件：
 ```Objective-C
@@ -126,7 +123,7 @@
 }
 ```
 
-### ⚠️注意：
+## ⚠️注意：
 >本demo为了简洁明了，直接选取的是正方形的图片。如果选择非正方形图片会导致变形，这样截图区域会不准确。
 >>正确的做法：应该在展示image时，根据image具体的比例调整“orgiImageView”的frame，这样截取出来的图片才是正确的。
 
